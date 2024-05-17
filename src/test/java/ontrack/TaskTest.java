@@ -25,7 +25,7 @@ public class TaskTest {
 	@Test
     public void testfailAddCommentAndPrintTimestamp() {
         Task task = new Task("Task 1");
-        task.addComment("Hi Ma'am please check my task");
+        task.addComment("Hi Ma'am please check my");
         List<String> comments = task.getComments();
         assertEquals(1, comments.size());
         assertEquals("Hi Ma'am please check my task", comments.get(0));
