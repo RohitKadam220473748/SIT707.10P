@@ -28,7 +28,7 @@ public class TaskTest {
         task.addComment("Hi Ma'am please check my task its done from my side");
         List<String> comments = task.getComments();
         assertEquals(1, comments.size());
-        assertEquals("Hi Ma'am please check my task its done from my side", comments.get(0));
+        assertEquals("Hi Ma'am please check my task its done fro", comments.get(0));
         System.out.println("Task Message: " + comments);
 
         assertNotNull(task.getTimestamps().get(0));
